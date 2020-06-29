@@ -7,8 +7,9 @@ while  i > 0 :
 		break
 	else : 
 		i = i - 1
-		print ('登入失敗，還有' , i , '機會')
-		
+		if i > 0 :
+			print ('登入失敗，還有' , i , '機會')
+
 		
 		
 
